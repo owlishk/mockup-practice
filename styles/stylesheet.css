@@ -1,6 +1,6 @@
-/** { 
+* { 
   box-sizing: border-box;
-}*/
+}
 
 * {
   font-family: "Arial", sans-serif;
@@ -40,8 +40,26 @@ header li a {
 }
 
 /*creating box for aside*/
-
-
-aside li {
+aside {
   clear: both;
+  float: left;
+  width: 22%;
+  height: 24rem;
+  background-color: plum;
+  text-align: center; 
 }
+
+/*aside text specifications*/
+aside li a {
+  list-style-type: none;
+  font: 1rem;
+  color: white;
+  line-height: 2rem;
+  padding-top: 6rem;
+}
+
+/*formatting class for first item in aside to address padding above
+.first-in-list:first-child { 
+  padding-top: 100px;
+}*/
+
