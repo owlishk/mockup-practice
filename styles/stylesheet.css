@@ -1,0 +1,47 @@
+/** { 
+  box-sizing: border-box;
+}*/
+
+* {
+  font-family: "Arial", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+header h1 {
+  text-align: center;
+  color: mediumpurple;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+/*formatting header link boxes*/
+header li {
+  float: left;
+  background-color: mediumpurple;
+  width: 14%;
+  padding-top: .4rem;
+  padding-bottom: .4rem;
+  text-align: center;
+  border-right: 2px solid RebeccaPurple;
+}
+
+/*separating font characteristics*/
+header li a {
+  list-style-type: none;
+  font: bold 1rem;
+  color: white;
+}
+
+/*creating box for aside*/
+
+
+aside li {
+  clear: both;
+}
