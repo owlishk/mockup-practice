@@ -39,27 +39,69 @@ header li a {
   color: white;
 }
 
-/*creating box for aside*/
+/*creating box for aside. using px for height to match div. not ideal*/
 aside {
   clear: both;
   float: left;
   width: 22%;
-  height: 24rem;
+  height: 500px;
   background-color: plum;
   text-align: center; 
 }
 
 /*aside text specifications*/
 aside li a {
-  list-style-type: none;
   font: 1rem;
   color: white;
   line-height: 2rem;
-  padding-top: 6rem;
 }
 
-/*formatting class for first item in aside to address padding above
+/*formatting class for first item in aside to address padding above*/
 .first-in-list:first-child { 
-  padding-top: 100px;
-}*/
+  border-top-color: orange;
+  border-top: 6px
+}
+
+/*formatting div for image. using px height to match columns*/
+div {
+  float: left;
+  width: 76%;
+  height: 500px;
+  background-color: lightgray;  
+}
+
+div img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3em;
+}
+
+div figcaption {
+  font-size: .7rem;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  text-align: center;
+  padding-top: 2rem;
+  line-height: 1rem;
+}
+
+footer {
+  text-align: center;
+}
+
+/*formatting footer image*/
+footer img {
+  height: 2rem;
+  width: 2rem;
+  margin: 1rem;
+
+}
+
+
+
+
 
