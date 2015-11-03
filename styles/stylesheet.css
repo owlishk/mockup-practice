@@ -14,6 +14,17 @@ h1 {
   font-size: 2.5rem;
 }
 
+h2 {
+  font-size: 1.3rem;
+}
+
+/*formatting aside on recipe page*/
+aside h2{
+  text-align: center;
+  color: mediumpurple;
+  padding-top: 1.5rem;
+}
+
 header h1 {
   text-align: center;
   color: mediumpurple;
@@ -49,17 +60,16 @@ aside {
   text-align: center; 
 }
 
+/*adding top margin to aside list*/
+aside ul {
+  margin-top: 3rem;
+}
+
 /*aside text specifications*/
 aside li a {
   font: 1rem;
   color: white;
   line-height: 2rem;
-}
-
-/*formatting class for first item in aside to address padding above*/
-.first-in-list:first-child { 
-  border-top-color: orange;
-  border-top: 6px
 }
 
 /*formatting div for image. using px height to match columns*/
@@ -89,6 +99,21 @@ div figcaption {
   line-height: 1rem;
 }
 
+/*formattting recipe steps*/
+.recipestep {
+  clear: both;
+  background-color: pink;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  padding: 1rem;
+  width: 90%;
+}
+
+/*formatting recipe step header*/
+h2.recipestep {
+  color: white;
+}
+
 footer {
   text-align: center;
 }
@@ -98,7 +123,6 @@ footer img {
   height: 2rem;
   width: 2rem;
   margin: 1rem;
-
 }
 
 
