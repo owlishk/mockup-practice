@@ -58,7 +58,7 @@ aside {
   clear: both;
   float: left;
   width: 22%;
-  height: 600px;
+  height: 550px;
   background-color: plum;
   text-align: center; 
 }
@@ -85,7 +85,7 @@ aside li a {
 div {
   float: left;
   width: 76%;
-  height: 600px;
+  height: 550px;
   background-color: lightgray;  
 }
 
@@ -95,6 +95,10 @@ div img {
   margin-left: auto;
   margin-right: auto;
   padding-top: 3em;
+}
+
+.olaf {
+  width: 40%;
 }
 
 div figcaption {
@@ -164,7 +168,6 @@ div.rating-div {
   color: dimgray;
   padding-left: 1rem;
 }
-
 
 footer {
   clear: both;
