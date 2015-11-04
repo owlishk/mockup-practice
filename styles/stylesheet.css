@@ -50,7 +50,7 @@ aside h2{
   text-align: center;
   color: mediumpurple;
   padding-top:3rem;
-  margin-bottom: -2rem;
+  margin-bottom: -3rem;
 }
 
 /*creating box for aside. using px for height to match div. not ideal*/
@@ -58,7 +58,7 @@ aside {
   clear: both;
   float: left;
   width: 22%;
-  height: 550px;
+  height: 600px;
   background-color: plum;
   text-align: center; 
 }
@@ -85,7 +85,7 @@ aside li a {
 div {
   float: left;
   width: 76%;
-  height: 550px;
+  height: 600px;
   background-color: lightgray;  
 }
 
@@ -124,7 +124,50 @@ article.recipestep h2 {
   padding-bottom: .5rem;
 }
 
+
+/*formatting div on reviews page*/
+.rating-div {
+  width: 40%;
+  height: 400px;
+}
+
+/*formatting recipe photo on ratings page*/
+.rating-photo {
+  width: 50%;
+}
+
+/*formatting div container for ratings on review page*/
+div.rating-div {
+  float: left;
+  height: 400px;
+  weight: 50%
+  background-color: orange;
+}
+
+/*formatting reviews on review page*/
+.reviews {
+  float: left;
+  background-color: lightpink;
+  height: 400px;
+  width: 58%;
+}
+
+/*formatting header for reviews*/
+.reviews h3 {
+  color: dimgray;
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+
+/*formatting review content font */
+.reviews p {
+  color: dimgray;
+  padding-left: 1rem;
+}
+
+
 footer {
+  clear: both;
   text-align: center;
 }
 
