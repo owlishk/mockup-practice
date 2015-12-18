@@ -22,7 +22,7 @@ h2 {
 
 header h1 {
   text-align: center;
-  color: mediumpurple;
+  color: #5f30bf;
   padding-top: 3rem;
   padding-bottom: 1rem;
 }
@@ -30,7 +30,7 @@ header h1 {
 /*formatting header link boxes*/
 header li {
   float: left;
-  background-color: mediumpurple;
+  background-color: #5f30bf;
   width: 14%;
   padding-top: .4rem;
   padding-bottom: .4rem;
@@ -48,7 +48,7 @@ header li a {
 /*formatting aside on recipe page*/
 aside h2{
   text-align: center;
-  color: mediumpurple;
+  color: #f0ecfa;
   padding-top:3rem;
   margin-bottom: -3rem;
 }
@@ -59,7 +59,7 @@ aside {
   float: left;
   width: 22%;
   height: 550px;
-  background-color: plum;
+  background-color: #7b2c7b;
   text-align: center; 
 }
 
@@ -87,6 +87,7 @@ div {
   width: 76%;
   height: 550px;
   background-color: lightgray;  
+  margin-bottom: 2rem;
 }
 
 div img {
@@ -115,16 +116,17 @@ div figcaption {
 /*formattting recipe page steps*/
 .recipestep {
   clear: both;
-  background-color: pink;
+  background-color: #efefef;
   margin-top: 2rem;
   margin-left: 2rem;
   padding: 1rem;
   width: 93%;
+  color:  #ac001d;
 }
 
 /*formatting recipe step header*/
 article.recipestep h2 {
-  color: white;
+  color: #ac001d;
   padding-bottom: .5rem;
 }
 
@@ -151,21 +153,21 @@ div.rating-div {
 /*formatting reviews on review page*/
 .reviews {
   float: left;
-  background-color: lightpink;
+  background-color: #fff6f7;
   height: 400px;
   width: 58%;
 }
 
 /*formatting header for reviews*/
 .reviews h3 {
-  color: dimgray;
+  color: #494949;
   padding-top: 2rem;
   padding-left: 1rem;
 }
 
 /*formatting review content font */
 .reviews p {
-  color: dimgray;
+  color: #494949;
   padding-left: 1rem;
 }
 
